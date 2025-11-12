@@ -42,7 +42,7 @@ ws_logger.setLevel(level=logging.INFO)
 # --- Configurazione Minecraft (da File 1) ---
 PID_FILE = "server.pid"
 LOG_FILE = "logs/latest.log"
-START_SCRIPT = "./start.sh"
+START_SCRIPT = ".././start.sh"
 
 RCON_HOST = "10.144.64.195"  # Assicurati che questo IP sia corretto!
 RCON_PASS = "SuperDuperServer_Mk23022006fire"
