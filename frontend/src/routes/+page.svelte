@@ -3,7 +3,7 @@
 
 	// *** IMPOSTA QUESTO ***
 	// Metti qui l'IP del tuo Raspberry Pi dove gira il backend Python
-	const API_URL = 'http://localhost:8000'; // Esempio
+	const API_URL = 'http://10.144.64.195:8000'; // Esempio
 
 	let logLines = ['Caricamento console...'];
 	let stats = {
