@@ -1,0 +1,10 @@
+flask
+flask-socketio
+psycopg2-binary # postgres
+# PyJWT
+gunicorn # for production
+eventlet # for production & ws
+
+flask_cors
+psutil
+mcrcon

@@ -1,0 +1,16 @@
+FROM node:25-alpine AS builder
+
+WORKDIR /app
+
+RUN chown node:node .
+
+USER node
+
+COPY --chown=node:node . .
+
+RUN npm install && \
+    npm run build
+
+FROM nginx:alpine3.22
+
+COPY --from=builder /app/build /var/www/html
